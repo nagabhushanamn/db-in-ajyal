@@ -1,0 +1,28 @@
+
+
+datasource
+--------------
+
+  types of datasources
+  --------------------
+
+    -> flat-files 
+
+        limitations of flat-files
+        ------------------------
+
+        ==> data format is consist
+        ==> data manupilation ( create , update , delete) is difficult
+        ==> data query on specific conditions
+        ==> data redundancy/duplication
+        ==> size constraints
+
+    -> relational/structured/SQL data-source(s)   
+
+        i.e we arrange data in the form tables
+
+
+
+
+
+    

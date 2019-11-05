@@ -1,0 +1,2 @@
+CODE: Super Quick Intro To SELECT
+SELECT * FROM cats; 
