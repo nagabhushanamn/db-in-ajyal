@@ -2,8 +2,6 @@ CODE: Creating Databases
 Creating Databases Code
 Start the CLI:
 
-mysql-ctl cli; 
-
 List available databases:
 
 show databases; 
