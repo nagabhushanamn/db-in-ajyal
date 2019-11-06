@@ -1,0 +1,12 @@
+
+
+> create database todos_db
+
+
+> todos = {
+    id
+    title,
+    completed,
+    createdAt  default now(),
+    updatedAt  on update now(),
+}
