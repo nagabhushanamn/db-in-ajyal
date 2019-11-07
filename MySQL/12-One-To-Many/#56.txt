@@ -1,4 +1,5 @@
 CODE: Working With Foreign Keys
+
 -- Creating the customers and orders tables
 
 CREATE TABLE customers(
@@ -9,12 +10,15 @@ CREATE TABLE customers(
 );
 
 CREATE TABLE orders(
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     order_date DATE,
     amount DECIMAL(8,2),
     customer_id INT,
-    FOREIGN KEY(customer_id) REFERENCES customers(id)
+    FOREIGN KEY(customer_id) REFERENCES customers(id),
+    PRIMARY KEY (id )
 );
+
+
 -- Inserting some customers and orders
 
 INSERT INTO customers (first_name, last_name, email) 

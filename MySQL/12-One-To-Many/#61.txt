@@ -13,6 +13,9 @@ FROM customers
 RIGHT JOIN orders
     ON customers.id = orders.customer_id
 GROUP BY first_name, last_name;
+
+
+
 -- WORKING WITH ON DELETE CASCADE
 
 CREATE TABLE customers(
